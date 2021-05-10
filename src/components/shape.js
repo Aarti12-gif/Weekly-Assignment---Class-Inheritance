@@ -1,24 +1,17 @@
-// declare class
 
-// export class using module.exports
-import React from 'react';
-import ReactDom from 'react-dom';
-class Shape{
-    constructor(height,width){
-        this.height=height;
-        this.width=width;
-        this.color="red";
+
+
+class Shape {
+    constructor(color){
+      this.color = color;
     }
-    get area(){
-      return this.calcArea();  
-    }
-    get draw(){
-        return this.drawShape();
-    }
-    calcArea(){
-        return this.height*this.width;
-    }
-    drawShape(){
-        return circle;
-    }
-}
+   calculateArea() {
+     console.log(this.constructor.name + ' Area Calclated Called');
+   }
+   drawShape() {
+     return '';
+   }
+ }
+ 
+ export default Shape;
+ 
