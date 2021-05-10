@@ -1,6 +1,3 @@
-
-
-
 class Shape {
     constructor(color){
       this.color = color;
@@ -11,7 +8,8 @@ class Shape {
    drawShape() {
      return '';
    }
+
  }
+ module.exports=Shape;
  
- export default Shape;
  

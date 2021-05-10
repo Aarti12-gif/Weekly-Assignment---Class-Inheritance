@@ -5,5 +5,4 @@ class Circle extends Shape {
       console.log(this.constructor.name + ' Area Calclated Called');
     }
   }
-
-  export default Circle;
+module.exports=Circle;
