@@ -10,7 +10,7 @@ class Shape {
    }
 
  }
- module.exports=Shape;
- //export default Shape
+ module.exports.shape=Shape;
+//  //export default Shape
  
  
