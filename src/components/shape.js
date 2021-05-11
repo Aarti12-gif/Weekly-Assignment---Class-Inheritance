@@ -1,16 +1,15 @@
 class Shape {
-    constructor(color){
-      this.color = color;
-    }
-   calculateArea() {
-     console.log(this.constructor.name + ' Area Calclated Called');
-   }
-   drawShape() {
-     return '';
-   }
+  constructor(color) {
+    this.color = color;
+  }
+  calculateArea() {
+    console.log(this.constructor.name + ' Area Calclated Called');
+  }
+  drawShape() {
+    return '';
+  }
 
- }
- module.exports.shape=Shape;
+}
+module.exports = Shape;
 //  //export default Shape
- 
- 
+
